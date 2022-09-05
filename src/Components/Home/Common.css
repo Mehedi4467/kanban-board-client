@@ -1,0 +1,17 @@
+.main-section {
+    width: 202px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.body {
+    background-color: #FF6347;
+}
+
+.body h2 {
+    margin: 0;
+    color: #444444;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}

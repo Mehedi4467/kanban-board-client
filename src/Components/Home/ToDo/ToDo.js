@@ -1,10 +1,12 @@
 import React from 'react';
-
+import '../Common.css';
 const ToDo = () => {
     return (
-        <div>
-            todo home
-        </div>
+        <section className='main-section'>
+            <div className='body'>
+                <h2>To Do</h2>
+            </div>
+        </section>
     );
 };
 

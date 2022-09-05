@@ -1,5 +1,5 @@
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@
 
 }
 
-/* mobile divice */
+/* mobile device */
 @media only screen and (max-width: 576px) {
     .grid-container {
         display: grid;
@@ -25,7 +25,7 @@
 }
 
 
-/* medium divice */
+/* medium device */
 @media only screen and (min-width: 576px) and (max-width: 768px) {
     .grid-container {
         display: grid;

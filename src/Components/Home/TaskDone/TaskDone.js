@@ -1,10 +1,12 @@
 import React from 'react';
-
+import '../Common.css';
 const TaskDone = () => {
     return (
-        <div>
-            task Done
-        </div>
+        <section className='main-section'>
+            <div className='body'>
+                <h2>Done</h2>
+            </div>
+        </section>
     );
 };
 

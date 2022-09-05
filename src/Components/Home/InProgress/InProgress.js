@@ -1,10 +1,12 @@
 import React from 'react';
-
+import '../Common.css';
 const InProgress = () => {
     return (
-        <div>
-            Task In progress
-        </div>
+        <section className='main-section'>
+            <div className='body'>
+                <h2>In Progress</h2>
+            </div>
+        </section>
     );
 };
 

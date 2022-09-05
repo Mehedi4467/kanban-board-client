@@ -1,17 +1,66 @@
+/* task font style */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+/* main section task div css */
+
 .main-section {
     width: 202px;
     height: 400px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
     border: 1px solid black;
 }
 
-.body {
+/* task title css */
+
+.title {
     background-color: #FF6347;
+    position: fixed;
+    width: 202px;
 }
 
-.body h2 {
+.title h2 {
+
     margin: 0;
     color: #444444;
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid black;
+}
+
+
+/* task section body  */
+
+.task-main-body {
+    margin-top: 65px;
+    text-align: center;
+
+
+}
+
+/* task div */
+
+.task {
+    padding: 2px 2px;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    margin-right: 2px;
+    border-radius: 4px;
+    cursor: move;
+    background-color: #EEEEEE;
+}
+
+/* task text  */
+
+.task-text {
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* task time  */
+
+.task-time {
+    font-size: 10px;
+    color: orange;
+    text-align: right;
 }

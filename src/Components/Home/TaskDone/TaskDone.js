@@ -3,7 +3,7 @@ import '../Common.css';
 const TaskDone = () => {
     return (
         <section className='main-section'>
-            <div className='body'>
+            <div className='title'>
                 <h2>Done</h2>
             </div>
         </section>

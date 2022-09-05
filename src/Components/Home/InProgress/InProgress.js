@@ -3,7 +3,7 @@ import '../Common.css';
 const InProgress = () => {
     return (
         <section className='main-section'>
-            <div className='body'>
+            <div className='title'>
                 <h2>In Progress</h2>
             </div>
         </section>

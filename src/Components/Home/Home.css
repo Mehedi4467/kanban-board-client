@@ -18,9 +18,15 @@
 @media only screen and (max-width: 576px) {
     .grid-container {
         display: grid;
+        gap: 10px;
         grid-template-columns: 1fr;
         justify-items: center;
 
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
@@ -29,7 +35,13 @@
 @media only screen and (min-width: 576px) and (max-width: 768px) {
     .grid-container {
         display: grid;
+        gap: 10px;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
+    }
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
     }
 }

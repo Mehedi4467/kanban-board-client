@@ -4,10 +4,7 @@
 /* main section task div css */
 
 .main-section {
-    width: 202px;
-    height: 400px;
-    overflow-y: auto;
-    scroll-behavior: smooth;
+    width: 250px;
     border: 1px solid black;
 }
 
@@ -15,8 +12,8 @@
 
 .title {
     background-color: #FF6347;
-    position: fixed;
-    width: 202px;
+    /* position: fixed;
+    width: 202px; */
 }
 
 .title h2 {
@@ -32,7 +29,11 @@
 /* task section body  */
 
 .task-main-body {
-    margin-top: 65px;
+    height: 345px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    margin-top: 5px;
+    /* margin-top: 65px; */
     text-align: center;
 
 
@@ -83,4 +84,11 @@
 ::-webkit-scrollbar-thumb {
     background: #ee7762;
     border-radius: 10px;
+}
+
+/* mobile device */
+@media only screen and (max-width: 576px) {
+    .main-section {
+        width: 100%;
+    }
 }

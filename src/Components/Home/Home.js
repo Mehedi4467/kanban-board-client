@@ -19,12 +19,10 @@ const Home = () => {
             <TaskInput></TaskInput>
             <div className='todo-section grid-container'>
                 <ToDo tasks={tasks}></ToDo>
-                <InProgress></InProgress>
-                <TaskDone></TaskDone>
+                <InProgress tasks={tasks}></InProgress>
+                <TaskDone tasks={tasks}></TaskDone>
             </div>
         </div>
-
-
     );
 };
 

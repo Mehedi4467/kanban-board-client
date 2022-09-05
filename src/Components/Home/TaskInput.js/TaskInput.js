@@ -2,7 +2,7 @@ import React from 'react';
 import './TaskInput.css';
 const TaskInput = () => {
     return (
-        <div>
+        <section>
             <form className='task-input-main'>
                 <div className='input-field'>
                     <input type="text" placeholder='Write your task ...' />
@@ -11,7 +11,7 @@ const TaskInput = () => {
                     <button>Add</button>
                 </div>
             </form>
-        </div>
+        </section>
     );
 };
 

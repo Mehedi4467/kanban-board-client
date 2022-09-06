@@ -8,7 +8,7 @@ const TaskCard = ({ tasks }) => {
             {
                 tasks.map((task) => <div key={task._id} draggable onDragStart={(e) => dragStarted(e, task._id)} className='task'>
                     <p className='task-text'>{task.task}</p>
-                    <p className='task-time'>{task.time}</p>
+                    <p className='task-time'>{task.created_on}</p>
                 </div>)
             }
         </div>

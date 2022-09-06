@@ -1,6 +1,6 @@
 import React from 'react';
 import './TaskInput.css';
-const TaskInput = ({ taskHandler }) => {
+const TaskInput = ({ taskHandler, inputLoad }) => {
 
     return (
         <section>
@@ -9,7 +9,7 @@ const TaskInput = ({ taskHandler }) => {
                     <input type="text" name='task' placeholder='Write your task ...' />
                 </div>
                 <div className='input-button'>
-                    <button>Add</button>
+                    <button>{inputLoad ? 'Loading..' : "Add"}</button>
                 </div>
             </form>
         </section>

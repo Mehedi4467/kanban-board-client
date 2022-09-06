@@ -1,18 +1,27 @@
 import React from 'react';
-import { draggingOver, dragDropped } from '../../utility/Drag_Drop';
+import { draggingOver } from '../../utility/Drag_Drop';
 import '../Home/Common.css';
-const TaskBoard = (props) => {
+const TaskBoard = ({ dragDropped, board_id, title, children }) => {
+
+    // const dragDropped = (e, status) => {
+    //     console.log("you have drop");
+    //     let transferToDoId = e.dataTransfer.getData('todoId');
+    //     console.log(status, transferToDoId);
+
+    //     fetch()
+
+    // };
 
     return (
         <section className='main-section'
             droppable='true' onDragOver={(e) => draggingOver(e)}
-            onDrop={(e) => dragDropped(e, props.board_id)}
+            onDrop={(e) => dragDropped(e, board_id)}
         >
 
             <div className='title'>
-                <h2>{props.title}</h2>
+                <h2>{title}</h2>
             </div>
-            {props.children}
+            {children}
         </section>
     );
 };

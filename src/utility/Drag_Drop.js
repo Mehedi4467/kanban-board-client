@@ -3,16 +3,18 @@ const draggingOver = (e) => {
     console.log('dragging over Now');
 };
 
-const dragDropped = (e) => {
+const dragDropped = (e, id) => {
     console.log("you have drop");
     let transferToDoId = e.dataTransfer.getData('todoId');
-    console.log(transferToDoId);
+    console.log(id, transferToDoId);
+
 };
 
 const dragStarted = (e, id) => {
     console.log('drag has started');
     e.dataTransfer.setData("todoId", id);
-    console.log(id)
-}
+    console.log('hello', id)
+};
 
 export { draggingOver, dragDropped, dragStarted };
+

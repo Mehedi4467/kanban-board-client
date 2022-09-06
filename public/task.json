@@ -3,24 +3,28 @@
     "_id": "631634bc010c5b89d0d1dd70",
     "task": "I will go to the market today. Must buy potato, potal, morik, jigga",
     "time": "15 April 2022 , 12:00 am",
-    "updateAt": "15 April 2022 , 12:00 pm"
+    "updateAt": "15 April 2022 , 12:00 pm",
+    "status": "new"
   },
   {
     "_id": "631634bc89cc493709433d28",
     "task": "I will go to the market today. Must buy potato, potal, morik, jigga",
     "time": "15 April 2022 , 12:00 am",
-    "updateAt": "15 April 2022 , 12:00 pm"
+    "updateAt": "15 April 2022 , 12:00 pm",
+    "status": "in-progress"
   },
   {
     "_id": "631634bcc99bbe41caf220ca",
     "task": "I will go to the market today. Must buy potato, potal, morik, jigga",
     "time": "15 April 2022 , 12:00 am",
-    "updateAt": "15 April 2022 , 12:00 pm"
+    "updateAt": "15 April 2022 , 12:00 pm",
+    "status": "in-progress"
   },
   {
     "_id": "631634bcdd546389862b27d4",
     "task": "I will go to the market today. Must buy potato, potal, morik, jigga",
     "time": "15 April 2022 , 12:00 am",
-    "updateAt": "15 April 2022 , 12:00 pm"
+    "updateAt": "15 April 2022 , 12:00 pm",
+    "status": "done"
   }
 ]

@@ -8,7 +8,16 @@ const TaskCard = ({ tasks }) => {
         <div className='task-main-body' >
             {
                 tasks.map((task) => <div key={task._id} draggable onDragStart={(e) => dragStarted(e, task._id)} className='task'>
-                    <p className='task-text'>{task.task}</p>
+
+                    <div>
+                        {
+                            task.status === 'in-progress' ? <i className="color fa-solid fa-spinner"></i> : task.status === 'done' ? <i className="color far fa-check-circle"></i> : ''
+                        }
+
+
+                        <p className='task-text'>{task.task}</p>
+                    </div>
+
                     <p className='task-time'>{task.created_on}</p>
                 </div>)
             }

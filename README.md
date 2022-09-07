@@ -1,6 +1,6 @@
 # Kanban board To Do App
 
-Project Live Link [Kanban board To Do App](https://github.com/facebook/create-react-app).
+Project Live Link [Kanban board To Do App](https://inspiring-scone-93d92c.netlify.app/).
 
 ## About This Project
 

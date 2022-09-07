@@ -9,7 +9,7 @@ This project is basically a Kanban board To Do app where you can input your dail
 
 <img src="https://i.ibb.co/VDMhtZx/Capture.png" alt="Kanban board To Do app" title="Kanban board To Do app">
 
-## About This Project
+## What is Kanban Board
 Kanban board is the most popular agile task management tool.
 A kanban board is one of the tools that can be used to implement kanban to manage work at a personal or organizational level.
 
